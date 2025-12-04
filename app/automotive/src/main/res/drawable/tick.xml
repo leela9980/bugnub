@@ -1,0 +1,21 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Dots arranged in a circle for loading spinner -->
+    <group>
+        <path android:fillColor="#3a9d39" android:pathData="M12,2 m-1,0 a1,1 0 1,0 2,0 a1,1 0 1,0 -2,0"/>
+        <path android:fillColor="#3a9d39" android:pathData="M16.24,4.34 m-1,0 a1,1 0 1,0 2,0 a1,1 0 1,0 -2,0"/>
+        <path android:fillColor="#3a9d39" android:pathData="M19.07,8.49 m-1,0 a1,1 0 1,0 2,0 a1,1 0 1,0 -2,0"/>
+        <path android:fillColor="#3a9d39" android:pathData="M20,13 m-1,0 a1,1 0 1,0 2,0 a1,1 0 1,0 -2,0"/>
+        <path android:fillColor="#3a9d39" android:pathData="M19.07,17.51 m-1,0 a1,1 0 1,0 2,0 a1,1 0 1,0 -2,0"/>
+        <path android:fillColor="#3a9d39" android:pathData="M16.24,21.66 m-1,0 a1,1 0 1,0 2,0 a1,1 0 1,0 -2,0"/>
+        <path android:fillColor="#3a9d39" android:pathData="M12,22 m-1,0 a1,1 0 1,0 2,0 a1,1 0 1,0 -2,0"/>
+        <path android:fillColor="#3a9d39" android:pathData="M7.76,21.66 m-1,0 a1,1 0 1,0 2,0 a1,1 0 1,0 -2,0"/>
+        <path android:fillColor="#3a9d39" android:pathData="M4.93,17.51 m-1,0 a1,1 0 1,0 2,0 a1,1 0 1,0 -2,0"/>
+        <path android:fillColor="#3a9d39" android:pathData="M4,13 m-1,0 a1,1 0 1,0 2,0 a1,1 0 1,0 -2,0"/>
+        <path android:fillColor="#3a9d39" android:pathData="M4.93,8.49 m-1,0 a1,1 0 1,0 2,0 a1,1 0 1,0 -2,0"/>
+        <path android:fillColor="#3a9d39" android:pathData="M7.76,4.34 m-1,0 a1,1 0 1,0 2,0 a1,1 0 1,0 -2,0"/>
+    </group>
+</vector>

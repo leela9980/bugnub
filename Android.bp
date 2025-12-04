@@ -1,0 +1,33 @@
+android_app {
+    name: "bugnub",
+    
+    srcs: ["automotive/src/main/java/**/*.kt"],
+    
+    resource_dirs: ["automotive/src/main/res"],
+    
+    manifest: "automotive/src/main/AndroidManifest.xml",
+    
+    static_libs: [
+        "androidx.core_core-ktx",
+    ],
+    
+    kotlincflags: ["-Xjvm-default=all"],
+    
+    platform_apis: true,
+    
+    certificate: "platform",
+    
+    privileged: true,
+    
+    system_ext_specific: true,
+    
+    owner: "leela",
+    
+    optimize: {
+        enabled: false,
+    },
+    
+    dex_preopt: {
+        enabled: false,
+    },
+}

@@ -1,0 +1,4 @@
+<resources>
+
+    <style name="Theme.Bugnub" parent="android:Theme.Material.Light.DarkActionBar" />
+</resources>

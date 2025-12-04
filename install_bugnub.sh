@@ -31,6 +31,6 @@ adb shell "mkdir /system/priv-app/bugnub"
 adb push bugnub.apk /system/priv-app/bugnub/bugnub.apk
 adb shell sync
 reboot_wait
-adb shell appops set com.lucid.bugnub SYSTEM_ALERT_WINDOW allow
+adb shell appops set com.leela.bugnub SYSTEM_ALERT_WINDOW allow
 reboot_wait
 # data present in /sdcard/bugnub
