@@ -10,7 +10,8 @@ It can be used on any Android-based device with a display, including mobile phon
 4. Developers can then pull the bugreport from /sdcard/ or upload it to a cloud service (e.g., Jira) to create a bug ticket.
 
 ### Installation
-1. You can load the project into Android studio and generate APK or use the one already in the repo
-2. run ./install_bugnub.sh script
+1. Build the apk in AOSP using Android.bp provided
+2. and push the apk into system priv-app folder
+[optional] use install_bugnub.sh script
 
 Make modifications to install_bugnub.sh script based on your device type. If everything goes well the bugnub icon should appear on the screen.
