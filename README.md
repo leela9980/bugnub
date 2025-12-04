@@ -1,4 +1,5 @@
-# bugnub
+# bugnub 
+<img src="https://github.com/leela9980/bugnub/blob/main/bugnub_icon.png" alt="Alt Text" width="96">
 This is an Android floating application that stays on top of all other apps. It is designed to generate platform-level bug reports on custom Android devices.
 To produce full, comprehensive Android bug reports, the app must be installed as a privileged system application.
 It can be used on any Android-based device with a display, including mobile phones, automotive infotainment systems, and Android-powered IoT devices.
