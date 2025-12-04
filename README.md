@@ -12,7 +12,12 @@ It can be used on any Android-based device with a display, including mobile phon
 
 ### Installation
 1. Build the apk in AOSP using Android.bp provided
-2. and push the apk into system priv-app folder
-[optional] use install_bugnub.sh script
+2 adb push bugnub_dump.sh /vendor/bin/bugnub_dump.sh
+  adb shell chmod +x /vendor/bin/bugnub_dump.sh
+  adb push init.bugnub.rc /vendor/etc/init/init.bugnub.rc
+  adb shell "mkdir /system/priv-app/bugnub"
+  adb push bugnub.apk /system/priv-app/bugnub/bugnub.apk
+  adb shell sync
+  adb reboot
 
 Make modifications to install_bugnub.sh script based on your device type. If everything goes well the bugnub icon should appear on the screen.
