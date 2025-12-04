@@ -1,0 +1,4 @@
+on property:sys.bugnub_dump=1
+    write /dev/kmsg "[Bugnub] Dumping logs into /sdcard/bugnub/{timestamp}"
+    exec u:r:su:s0 root root -- /vendor/bin/bugnub_dump.sh
+    write /dev/kmsg "[Bugnub] Dumped logs successfully /sdcard/bugnub/{timestamp}"
